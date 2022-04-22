@@ -28,8 +28,8 @@ from twilio.rest import Client
 import argparse
 import sys
 import time
-account_sid = 'ACd4a22e6a7575c99ab160d784c8f6b1d4'
-auth_token = 'd68a2e9a4da5443a42d5ac0cd92ac913'
+account_sid = 'YOUR SID'
+auth_token = 'YOUR TOKEN'
 client = Client(account_sid, auth_token)
 
 # parse the command line
